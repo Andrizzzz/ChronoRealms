@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Animals
   layers:
   - Default
   - TransparentFX
@@ -12,8 +14,8 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
-  - 
+  - Enemy
+  - Animals
   - 
   - 
   - 
@@ -38,6 +40,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: ForeGround
+    uniqueID: 1019223425
+    locked: 0
+  - name: Player
+    uniqueID: 1133898369
+    locked: 0
+  - name: Enemy
+    uniqueID: 3903378685
+    locked: 0
+  - name: Animals
+    uniqueID: 4251243181
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
